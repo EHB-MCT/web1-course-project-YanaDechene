@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz@0,5..1200;1,5..1200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    color: #261f28;
+    font-family: "Playfair", serif;
+    background-color: #EBDFE7;
+}
+
+h1{
+    margin: 0;
+    padding-top: 65px;
+}
+
+.navigation {
+    width: calc(100% - 20px);
+    height: 40px;
+    background-color: #261f28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    position: fixed;
+}
+
+.navigation nav {
+    width: 100%;
+}
+
+.navigation li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-nav {
+    padding-left: 50px;
+    height: 40px;
+}
+
+a {
+    background-color: #c8b4c4;
+    border-radius: 8px;
+    padding: 5px 12px;
+    color: #261f28 ;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+}
+
+.title {
+    color: #261f28 ;
+    font-family: "Corinthia", cursive;
+    font-size: 65px;
+
+
+}
+
+.font {
+    color: #5c4b57;
+    font-family: "Sekuya", cursive;
+    font-size: 120px;
+}
