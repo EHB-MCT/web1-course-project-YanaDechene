@@ -12,11 +12,11 @@ body {
 
 h1{
     margin: 0;
-    padding-top: 65px;
+    padding-top: 50px;
 }
 
 .navigation {
-    width: calc(100% - 20px);
+    width: calc(100%);
     height: 40px;
     background-color: #261f28;
     display: flex;
@@ -47,14 +47,24 @@ h1{
 
 a {
     background-color: #c8b4c4;
-    border-radius: 8px;
-    padding: 5px 12px;
+    border-radius: 10px;
+    padding: 3px 11px;
     color: #261f28 ;
     text-decoration: none;
+    border: 3px solid #c8b4c4;
+}
+
+a.more {
+    background-color: #EBDFE7;
+    border: 3px solid #c8b4c4;
 }
 
 .intro {
     text-align: center;
+}
+
+.intro p {
+    margin-bottom: 45px;
 }
 
 .title {
@@ -70,3 +80,68 @@ a {
     font-family: "Sekuya", cursive;
     font-size: 120px;
 }
+
+.line {
+    margin-top: -20px;
+    height: 35px;
+}
+
+.wrapper1 {
+    width: 90%;
+    margin: 0 auto;
+    background-color: none;
+}
+.page {
+    background-color: #978090;
+}
+
+.info-box {
+    background-color: #EBDFE7;
+    padding: 10px 50px;
+    padding-left: 120px;
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.info-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.frame {
+    height: 35vh;
+    position: absolute;
+    top: 10;
+    right: 10; 
+}
+.pic {
+    height: 30vh;
+    position: absolute;
+}
+
+.info-box h1 {
+    margin-top: 0;
+    padding: 0;
+}
+
+.mbti {
+    background-color: #EBDFE7;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-block;
+    margin: 20px;
+}
+
+.mbti h1 {
+    margin-top: 0;
+    padding: 0;
+}
+
+/* PHOTOGRAPHY*/
+
