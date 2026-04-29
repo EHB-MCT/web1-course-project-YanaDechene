@@ -16,7 +16,7 @@ h1{
 }
 
 .navigation {
-    width: calc(100%);
+    width: 100%;
     height: 40px;
     background-color: #261f28;
     display: flex;
@@ -71,8 +71,6 @@ a.more {
     color: #261f28 ;
     font-family: "Corinthia", cursive;
     font-size: 65px;
-
-
 }
 
 .font {
@@ -86,10 +84,9 @@ a.more {
     height: 35px;
 }
 
-.wrapper1 {
+.wrapper {
     width: 90%;
     margin: 0 auto;
-    background-color: none;
 }
 .page {
     background-color: #978090;
@@ -145,3 +142,100 @@ a.more {
 
 /* PHOTOGRAPHY*/
 
+.title2 {
+    color: #261f28 ;
+    font-family: "Corinthia", cursive;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.gallery1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 12px;
+    padding-bottom: 20px;
+}
+
+.gallery1 img {
+    height: 40vh;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #978090;
+    padding-bottom: 10px;
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #978090;
+    margin-bottom: 20px;
+}
+
+/*CARS*/
+
+
+.title3 {
+    color: #261f28 ;
+    font-family: "Corinthia", cursive;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+.text-box {
+    background-color: #978090;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    display: block;
+    margin: 20px 0;
+    margin-right: 150px;
+}
+
+.top{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.top img {
+    height: 50vh;
+    width: 100%;
+}
+
+.item {
+    width: 24%;
+}
+
+.pics {
+    margin-bottom: 20px;
+}
+
+.size img, video{
+    height: 60vh;
+}
+
+/*FAV PEOPLE*/
+
+.people-section {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.text-box2 {
+    background-color: #978090;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    display: block;
+    margin: 20px 0;
+    margin-right: 150px;
+}
