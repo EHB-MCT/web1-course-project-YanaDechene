@@ -43,7 +43,7 @@ h1{
 }
 
 .logo-nav {
-    padding-left: 50px;
+    padding-left: 40px;
     height: 40px;
 }
 
@@ -271,4 +271,87 @@ h3 {
 
 .text-box2 h2 {
     margin-top: 0px;
+}
+
+/*786 for mobile*/
+@media screen and (max-width: 786px) {
+    .navigation{
+        display: none;
+    }
+    .wrapper {
+        width: 92%;
+    }
+    h1 {
+        padding-top: 0;
+    }
+    .title {
+        padding-top: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 12vw;
+    }
+    .font {
+        text-align: center;
+        font-size: 12vw;
+    }
+    .line {
+        padding-top: 10px;
+    }
+    .info-box {
+        padding: 10px;
+        padding-left: 25%;
+    }
+    .pic {
+        position: absolute;
+        width: 40%;
+        height: auto;
+    }
+    .frame {
+        position: absolute;
+        width: 42%;
+        height: auto;
+    }
+    .info-box, .mbti {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 786px) {
+.topnav {
+  overflow: hidden;
+  background-color: #261f28;
+  position: relative;
+}
+
+.topnav a {
+  color: #EBDFE7;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #261f28;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 15px;
+}
+.topnav a:hover {
+    background-color: transparent;
+}
+.active {
+  background-color: #261f28;
+  color: #EBDFE7;
+}
+
+.logo-nav {
+    padding-left: 0;
+}
+    
 }

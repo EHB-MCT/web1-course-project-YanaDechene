@@ -20,6 +20,33 @@
             </ul>
         </nav>
     </div>
+
+        <!-- Top Navigation Menu -->
+    <div class="topnav">
+    <a href="Who-am-I.html" class="logo-link">
+            <img src="assets/logo2.png" class="logo-nav">
+        </a>
+    <div id="myLinks">
+        <a href="photography.html">Photography</a>
+        <a href="car.html">Cars</a>
+        <a href="my-fav-people.html" class="more">My favorite people</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    </div>
+
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    }
+    </script>
+    
     <div class="wrapper">
         <div class="title3">
             <h1>Cars</h1>

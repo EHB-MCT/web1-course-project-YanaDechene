@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who am I?</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="navigation">
@@ -19,6 +20,33 @@
             </ul>
         </nav>
     </div>
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+    <a href="Who-am-I.html" class="logo-link">
+            <img src="assets/logo2.png" class="logo-nav">
+        </a>
+    <div id="myLinks">
+        <a href="photography.html">Photography</a>
+        <a href="car.html">Cars</a>
+        <a href="my-fav-people.html" class="more">My favorite people</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    </div>
+
+    <script>
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    }
+    </script>
+
     <header>
         <div class="wrapper">
             <div class="intro">
@@ -26,7 +54,7 @@
                     <h1>My <br> <span class="size"><span class="font">Portfolio</span> </span></h1>
                 </div>
                 <img src="assets/line.png" class="line">
-                <p>Right now I'm in my first year studying Multimedia & Creative Technology. <br> I've got a lot of interests such as: <br> listening to music, reading books, spending time with pets <br>BUT those are not the only things I love to do and I'm going to make you navigate in my world</p>
+                <p>Right now I'm in my first year studying Multimedia & Creative Technology. <br> I've got a lot of interests such as: <br> listening to music, reading books, spending time with pets <br>BUT those are not the only things I love to do and I'm going to make you navigate in my world !</p>
             </div>
         </div>
     </header>
